@@ -30,7 +30,6 @@ struct ContentView: View {
         
         if temperatureUnits[originalMeasurementUnit] == "F" {
             let convertedFahrenheitToKelvin = (originalMeasurementDouble - 32) * 5 / 9 + 273.15
-            
             convertedMeasurementToKelvin = convertedFahrenheitToKelvin
         }
         
